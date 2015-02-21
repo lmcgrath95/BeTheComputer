@@ -1,0 +1,29 @@
+def keyboardSum ():
+    acc = 0
+    for x in range (5) :
+        print "Enter a number:", 
+        nextNum = input()
+        acc = acc + nextNum
+
+    return acc
+
+"""
+
+myTotal = keyboardSum()
+myAvg = myTotal / 5.0
+print myTotal
+print myAvg
+
+"""
+
+def startToFinish(start, finish, numSteps) :
+    distance = finish - start
+    step = distance / numSteps
+
+    acc = start
+    for x in range (numSteps) :
+        acc = acc + step
+        print acc
+
+
+startToFinish (0, 1.0, 100)
