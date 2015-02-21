@@ -1,0 +1,13 @@
+print "Enter the temperature in Celcius"
+temperatureCelcuis = input ()
+
+temperatureFahrenheit = 9.0/5.0*temperatureCelcuis + 32
+print "The temperature is:"
+print temperatureFahrenheit
+
+print "Enter thekilmeters per hour"
+kph + input ()
+
+mph = kph / 1.6
+print "The miles per hour is:"
+print mph
