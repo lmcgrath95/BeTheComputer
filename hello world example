@@ -1,0 +1,6 @@
+print "hello world",
+print "nice to see you"
+
+print "enter a number:",
+num1 = input()
+print "You entered", numl, "as input"
