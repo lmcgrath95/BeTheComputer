@@ -1,0 +1,17 @@
+"""
+Lab1.py"
+Lauren McGrath
+9/3/2013
+Descripion: Converts kilometers into miles and laps into miles
+"""
+
+
+print "This program converts distance in kilometers to miles. Please enter a distance in kilometers."
+kilo = input()
+mile = kilo * 0.621
+print kilo, "Kilometers is", mile, "Miles"
+
+print "This prgram takes the number of laps of a quarter mile track run and converts it into a distance in miles."
+laps = input()
+mile = laps * .25
+print laps, "laps is", mile, "Miles"
