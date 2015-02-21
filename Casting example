@@ -1,0 +1,17 @@
+>>> x = 5
+>>> print x
+5
+>>> y = 5.0
+>>> print y
+5.0
+>>> x + 0.0
+5.0
+>>> x = float(x)
+>>> print x
+5.0
+>>> print y
+5.0
+>>> y = int(y)
+>>> print y
+5
+>>> 
